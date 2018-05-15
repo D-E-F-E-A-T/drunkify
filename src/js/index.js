@@ -6,4 +6,7 @@ btnMispell.addEventListener('click', function(e) {
     words.forEach(function(word, i) {
         console.log(word + i)
     });
+
+    var wrongSpan = document.getElementById('wrong');
+    wrongSpan.innerText = words.reverse().join('');
 });

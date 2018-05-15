@@ -37,7 +37,7 @@ gulp.task('js', function () {
 });
 
 gulp.task('css', function () {
-  gulp.src('src/css/*.css')
+  gulp.src('src/css/*.scss')
     .pipe(connect.reload());
 });
 
@@ -45,13 +45,13 @@ gulp.task("minify-css", function(cb) {
   console.log("========> Minificando SCSS...");
   pump(
     [
-      gulp.src("./src/*.scss"),
+      gulp.src("./src/css/*.scss"),
       sass(),
       cssmin(),
       rename({
         suffix: ".min"
       }),
-      gulp.dest("./build/css")
+      gulp.dest("./build")
     ],
     cb
   );

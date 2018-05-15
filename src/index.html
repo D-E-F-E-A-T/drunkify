@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Misspelify</title>
     <meta name="description" content="Misspelify">
-    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="main.min.css">
     <meta name="robots" content="NOODP">
     <meta name="theme-color" content="#222">
     <meta name="msapplication-navbutton-color" content="#222">
@@ -42,8 +42,17 @@
     <link rel="dns-prefetch" href="//google.com/maps">
 </head>
     <body>
-        <textarea name="correct" id="correct" cols="30" rows="10"></textarea>
-        <button id="misspelify">Mispell!</button>
+        <div class="container">
+            <div>
+                <textarea name="correct" id="correct" cols="30" rows="10"></textarea>
+            </div>
+            <div style="margin-top: 10px;">
+                <button id="misspelify">Mispell!</button>
+            </div>
+            <div style="margin-top: 10px;">
+                <span id="wrong"></span>
+            </div>
+        </div>
     </body>
     <script src="index.min.js"></script>
 </html>

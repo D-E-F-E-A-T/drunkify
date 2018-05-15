@@ -1,0 +1,28 @@
+@import 'button';
+@import 'textarea';
+
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+html {
+    background-color: #0cd2aa;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#wrong {
+    font-size: 2em;
+    color: white;
+    font-family: 'Cabin';
+}
