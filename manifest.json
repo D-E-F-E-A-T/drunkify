@@ -1,0 +1,9 @@
+{
+    "name": "brkeanig yuor eglish",
+    "short_name": "Misspelify",
+    "theme_color": "#0CD2AA",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "start_url": "/misspelify",
+    "splash_pages": null
+}
