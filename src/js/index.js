@@ -140,10 +140,15 @@ function getNeighbourLetter(letter) {
         ';': ['.','ç','~','/'],
         '/': [';','~',']']
     };
+    console.log(letter);
     var neighbourLetters = mapNeighbourLetters[letter.toLowerCase()];
-    return isUpperCase
+    if (neighbourLetters) {
+        return isUpperCase
         ? neighbourLetters[Math.floor(Math.random() * neighbourLetters.length)].toUpperCase()
         : neighbourLetters[Math.floor(Math.random() * neighbourLetters.length)];
+    } else {
+        return ' ';
+    }
 }
 
 function ok() {
