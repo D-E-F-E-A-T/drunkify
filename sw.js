@@ -2,22 +2,10 @@ var files = [
     'manifest.json',
     'index.min.js',
     'main.min.css',
-    // 'assets/carros/classico-1.jpg',
-    // 'assets/carros/classico-2.jpg',
-    // 'assets/carros/classico-3.jpg',
-    // 'assets/carros/classico-4.jpg',
-    // 'assets/carros/classico-5.jpg',
-    // 'assets/carros/classico-6.jpg',
-    // 'assets/carros/classico-7.jpg',
-    // 'assets/carros/lancha-1.jpg',
-    // 'assets/carros/lancha-2.jpg',
-    // 'assets/carros/lancha-3.jpg',
-    // 'assets/carros/lancha-4.jpg',
-    // 'assets/carros/moderno-1.jpg',
-    // 'assets/carros/moderno-2.jpg',
-    // 'assets/carros/moderno-3.jpg',
-    // 'assets/carros/moderno-4.jpg',
-    // 'assets/carros/moderno-5.jpg',
+    'assets/128.png',
+    'assets/144.png',
+    'assets/256.png',
+    'assets/512.png'
 ];
 // dev only
 if (typeof files == 'undefined') {
