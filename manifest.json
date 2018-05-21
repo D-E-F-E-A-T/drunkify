@@ -1,6 +1,6 @@
 {
-    "name": "brkeanig yuor eglish",
-    "short_name": "Misspelify",
+    "name": "wreite le you were3 rudkn",
+    "short_name": "Drunkify",
     "theme_color": "#0CD2AA",
     "background_color": "#ffffff",
     "icons": [
@@ -31,6 +31,5 @@
         }
     ],
     "display": "standalone",
-    "start_url": "/misspelify",
-    "splash_pages": null
+    "start_url": "/drunkify"
 }
